@@ -32,11 +32,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 
-// function multiply(a, b) { //eslint-disable-line
-//     var q =a*b;
-//     return [q,`The product of ${a} and ${b} is ${q}.`]
-// }
-// testMultiply(5,9);
+function multiply(a, b) { //eslint-disable-line
+    var q =a*b;
+    return [q,`The product of ${a} and ${b} is ${q}.`]
+}
+testMultiply(5,9);
 
 
 
@@ -65,14 +65,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 
-// function sumAndMultiply(a, b, c) { //eslint-disable-line
-//     var s1=sum(4,7);
-//     var s2=sum(s1[0],5);
-//     var m1=multiply(4,7);
-//     var m2 = multiply(m1[0],5);
-// return[s2[0],m2[0],`${a} and ${b} and ${c} sum to ${s2[0]}.`,`The product of ${a} and ${b} and ${c} is ${m2[0]}.`]
-// }
-// testSumAndMultiply(4,7,5);
+function sumAndMultiply(a, b, c) { //eslint-disable-line
+    var s1=sum(4,7);
+    var s2=sum(s1[0],5);
+    var m1=multiply(4,7);
+    var m2 = multiply(m1[0],5);
+return[s2[0],m2[0],`${a} and ${b} and ${c} sum to ${s2[0]}.`,`The product of ${a} and ${b} and ${c} is ${m2[0]}.`]
+}
+testSumAndMultiply(4,7,5);
 
 
 
