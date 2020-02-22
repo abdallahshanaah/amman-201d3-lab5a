@@ -137,19 +137,19 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 
-// function multiplyArray(multArr) { //eslint-disable-line
-//     var  a2=1;
-//     for (let i = 0;i<multArr.length;i++){
-//         a2=multiply(a2,multArr[i])[0];
-//         //console.log(a2)
-//     }
-//     return[a2,`The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${a2}.`]
-// }
-// multiplyArray(testArray)
+function multiplyArray(multArr) { //eslint-disable-line
+    var  a2=1;
+    for (let i = 0;i<multArr.length;i++){
+        a2=multiply(a2,multArr[i])[0];
+        //console.log(a2)
+    }
+    return[a2,`The numbers ${multArr[0]},${multArr[1]},${multArr[2]} have a product of ${a2}.`]
+}
+multiplyArray(testArray)
 
 
-// // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(multiplyArray);
+// Here is the test for multiplyArray(); uncomment it to run it
+testMultiplyArray(multiplyArray);
 
 
 
