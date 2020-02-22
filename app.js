@@ -98,20 +98,20 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 
-// var testArray = [2, 3, 4]; //eslint-disable-line
-// function sumArray(sumArr) { //eslint-disable-line
-//    var  a1=0;
-//     for (let i = 0;i<sumArr.length;i++){
-//         a1=sum(a1,sumArr[i])[0];
+var testArray = [2, 3, 4]; //eslint-disable-line
+function sumArray(sumArr) { //eslint-disable-line
+   var  a1=0;
+    for (let i = 0;i<sumArr.length;i++){
+        a1=sum(a1,sumArr[i])[0];
         
-//     }
-//     return[a1,`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${a1} is their sum.`]
-// }
-// sumArray(testArray);
+    }
+    return[a1,`${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${a1} is their sum.`]
+}
+sumArray(testArray);
 
-// // Here is the test for sumArray(); uncomment it to run it
+// Here is the test for sumArray(); uncomment it to run it
 
-// testSumArray(sumArray);
+testSumArray(sumArray);
 
 
 
