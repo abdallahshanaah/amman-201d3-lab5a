@@ -32,11 +32,11 @@ Test this function by hand in the console to get it working, and when you think 
 
 
 
-// function multiply(a, b) { //eslint-disable-line
-//     var q =a*b;
-//     return [q,`The product of ${a} and ${b} is ${q}.`]
-// }
-// testMultiply(5,9);
+function multiply(a, b) { //eslint-disable-line
+    var q =a*b;
+    return [q,`The product of ${a} and ${b} is ${q}.`]
+}
+testMultiply(5,9);
 
 
 
